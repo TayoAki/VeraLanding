@@ -30,16 +30,12 @@
                     <h1 class="mb-5">Hassle Free, Secure Ticket Purchasing</h1>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
-                    <form action="https://send.pageclip.co/8RNLiq8IQ9jWVkRWhp61uIx8HTaeXV7Z" class="pageclip-form" method="post">
-                        <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-                        <input type="text" name="name" value="Roscoe Jones" />
-                        <input type="email" name="email" value="roscoe@example.com" />
-                      
-                        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-                        <button type="submit" class="pageclip-form__submit">
-                          <span>Send</span>
-                        </button>
-                      </form>
+                    <form action="https://send.pageclip.co/8RNLiq8IQ9jWVkRWhp61uIx8HTaeXV7Z" class="pageclip-form" method="post" onsubmit="return false">
+                        <div class="row">
+                            <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..." name='email'></div>
+                            <div class="col-12 col-md-3"><button class="btn btn-primary btn-lg" type="submit" class="pageclip-form__submit" style="background: rgb(150,21,0);border-color: rgba(255,255,255,0);">Sign up!</button></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
